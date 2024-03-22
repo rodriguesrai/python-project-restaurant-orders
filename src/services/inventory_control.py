@@ -20,7 +20,7 @@ def read_csv_inventory(inventory_file_path=BASE_INVENTORY) -> Inventory:
     return inventory
 
 
-# Req 5
+# Req 5 /
 class InventoryMapping:
     def __init__(self, inventory_file_path=BASE_INVENTORY) -> None:
         self.inventory = read_csv_inventory(inventory_file_path)
